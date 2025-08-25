@@ -1,0 +1,6 @@
+console.log("hello my name is olamiposi i am here to tell you about, me")
+Comment.name("go for it")
+console.log("age")
+console.log("i am seven years old ")
+console.log("hobbies")
+console.log("i like football basketball("not very good") golf (not tryed yet) digging(a little bit)")
