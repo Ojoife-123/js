@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiplication Program</title>
+</head>
+
+<body>
+
+    <h1>Multiplication Program</h1>
+    <p>Please refresh the page to run the program again.</p>
+
+    <script>
+        // Define a function that takes two numbers as parameters
+        function multiplyNumbers(num1, num2) {
+            return num1 * num2;
+        }
+
+        // Use prompt() to ask the user for the first number
+        var num1 = prompt("Please enter the first number:");
+
+        // Use prompt() to ask the user for the second number
+        var num2 = prompt("Please enter the second number:");
+
+        // Convert the input strings to numbers
+        var number1 = parseInt(num1);
+        var number2 = parseInt(num2);
+
+        // Call the function with the numbers provided by the user
+        var product = multiplyNumbers(number1, number2);
+
+        // Use alert() to display the final result to the user
+        alert("The product of " + number1 + " and " + number2 + " is: " + product);
+    </script>
+
+</body>
+
+</html>
