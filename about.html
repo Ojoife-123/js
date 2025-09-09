@@ -6,12 +6,47 @@
     <title>Document</title>
 </head>
 <body>
-   <script>
-    console.log("hello my name is olamiposi i am here to tell you about, me")
-        console.log("age")
-        console.log("i am seven years old ")
-        console.log("hobbies")
-        console.log("i like football basketball(not very good) golf (not tryed yet) digging(a little bit)")
-   </script> 
+    <nav>
+        <ul>
+            <li><a href="website.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <H1>Intesting facts</H1>
+    <img src="https://media.istockphoto.com/id/1420676204/photo/portrait-of-a-royal-bengal-tiger-alert-and-staring-at-the-camera-national-animal-of-bangladesh.jpg?s=612x612&w=0&k=20&c=0OCYv99Ktv3fJ-YYlg7SetHBJj3pIk58WY7GDy5VCtI=" alt="portrait of a royal bengal tiger alert and staring at the camera national animal of bangladesh" width="400">
+    <button onclick="tiger()">Read More</button>
+    <p id="tiger-info"></p> 
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Lion_%28Panthera_leo%29_male_6y.jpg/960px-Lion_%28Panthera_leo%29_male_6y.jpg"
+        alt="lion liyng down on rock" width="400">
+    <button onclick="lion()">Read More</button>
+    <p id="lion"></p>
+
+    <script>
+        function tiger() {
+            document.getElementById("tiger-info").innerHTML =
+            "Tigers are the largest of the big cats and are known for their striking orange-and-black striped coats. They are powerful predators and an iconic symbol of the wild.
+
+Types of Tigers
+There are six recognized subspecies of tigers.These include:
+
+Bengal Tiger(Panthera tigris tigris): Found in India, Bangladesh, Nepal, and Bhutan.
+
+Indochinese Tiger(Panthera tigris corbetti): Found in Thailand, Myanmar, and Laos.
+
+Siberian Tiger(Panthera tigris altaica): Found in the Russian Far East and northeastern China.Also known as the Amur tiger.
+
+Sumatran Tiger(Panthera tigris sumatrae): Found on the island of Sumatra in Indonesia.
+
+Malayan Tiger(Panthera tigris jacksoni): Found on the Malay Peninsula.
+
+South China Tiger(Panthera tigris amoyensis): Critically endangered and possibly extinct in the wild.
+
+Three subspecies have become extinct in the last century: the Bali tiger, Javan tiger, and Caspian tiger.
+            
+"
+        }
+    </script>
 </body>
 </html>
